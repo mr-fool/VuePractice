@@ -10,7 +10,12 @@
     </head>
     <body>
         <div id="app">
-            {{message}}
+            <h3>Grocery List</h3>
+            <ul>
+                <li v-for="grocery in groceries">
+                    {{grocery}}
+                </li>
+            </ul>
         </div>
         <script type="text/javascript" src="app.js"></script>
     </body>
