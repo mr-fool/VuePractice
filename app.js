@@ -1,5 +1,6 @@
-Vue.component("grocery-itme", {
-    template: `<li>{{title}}<li>`
+Vue.component("grocery-item", {
+    template: `<li>{{title}}<li>`,
+    props: ["title"]
 });
 new Vue({
     el: "#app",
